@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "212860823802",
+    "project_id": "translator-9539c",
+    "storage_bucket": "translator-9539c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212860823802:android:e4f4fedee57f25c84b8143",
+        "android_client_info": {
+          "package_name": "test.pei.textdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212860823802-80f9shrefag8olg1f0rojj1jiiquut4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoXzm8hign5aiWgwHj-gGHfgiv-d0v_QI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212860823802-80f9shrefag8olg1f0rojj1jiiquut4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

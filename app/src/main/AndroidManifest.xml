@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="test.pei.textdetector">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- below line is use to add camera feature in our app -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" /> <!-- permission for internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/scanner"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/scanner"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TextDetector">
+        <activity
+            android:name="test.pei.textdetector.scanActivity"
+            android:exported="true" />
+        <activity
+            android:name="test.pei.textdetector.TranslatorActivity"
+            android:exported="true" />
+        <activity
+            android:name="test.pei.textdetector.ScannerActivity"
+            android:exported="true" />
+        <activity
+            android:name="test.pei.textdetector.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="label" />
+    </application>
+
+
+</manifest>
